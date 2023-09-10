@@ -3,23 +3,23 @@
         "magic": "APF_VER_1",
         "metadata": {
             "platform_ids": ["ex_platform"],
-            "shortname": "Core Template",
-            "description": "APF core template. Displays gray test screen.",
-            "author": "Developer",
-            "url": "https://github.com/open-fpga/core-template",
-            "version": "1.3.0",
-            "date_release": "2023-03-08"
+            "shortname": "HelloWorld",
+            "description": "A simple Hello, world! Pocket Core.",
+            "author": "Tyler Jaacks",
+            "url": "https://github.com/tylerjaacks/pockethelloworld",
+            "version": "1.0.0",
+            "date_release": "2023-09-10"
         },
         "framework": {
             "target_product": "Analogue Pocket",
             "version_required": "1.1",
-            "sleep_supported": false,
+            "sleep_supported": true,
             "dock": {
                 "supported": true,
-                "analog_output": false
+                "analog_output": true
             },
             "hardware": {
-                "link_port": false,
+                "link_port": true,
                 "cartridge_adapter": -1
             }
         },
